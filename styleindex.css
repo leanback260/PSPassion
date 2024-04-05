@@ -7,10 +7,12 @@ body{
   background-color: #363b4e;
 }
 .main{
-  margin-left: 8%;
-  font-family: "Unbounded", sans-serif;
-  font-weight: 600;
+  margin-left: 140px;
+  margin-right: 10px;
+  font-family: "Handjet";
+  font-weight: 700;
 }
+
 
 .sidebar {
   position: fixed;
@@ -18,15 +20,16 @@ body{
   top: 0;
   left: 0;
   bottom: 0;
-  width: 5%;
+  width: 110px;
   background-color: #e7eaf6;
-  padding: 1%;
+  padding: 10px;
   overflow-y: auto;
   z-index: 999;
-  font-family: "Handjet";
-  font-weight: 700;
-  font-size: 30px;
+  font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
+  font-size: 20px;
 }
+
 .menu {
   list-style: none;
   margin: 0;
@@ -48,8 +51,9 @@ body{
 }
 /*####################################################*/
 #en, #ru{
-  font-size: 50px;
-  font-weight: 400;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 100;
 }
 #en, .header{
   color: #c4bbf0;
@@ -60,13 +64,13 @@ body{
 /*####################################################*/
 .header{
   color: #e7eaf6;
-  font-family: "Unbounded", sans-serif;
-  font-weight: 900;
   margin-bottom: -40px;
+  font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
   font-size: 70px;
-  margin-right: -7px;
+  margin-right: -17px;
   margin-top: -70px;
-  padding-left: 8%;
-  margin-left: -8%;
+  padding-left: 100px;
+  margin-left: -100px;
   background: rgb(71, 78, 103);
 }

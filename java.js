@@ -5,3 +5,6 @@ const sidebar = document.querySelector('.sidebar');
 menuToggle.addEventListener('click', () => {
   sidebar.classList.toggle('open');
 });
+
+
+--swiper-navigation-color: var(--swiper-theme-color);
